@@ -1,0 +1,40 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-left {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-right {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .dashboard-footer {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-main {
+      flex-direction: column;
+    }
+  }

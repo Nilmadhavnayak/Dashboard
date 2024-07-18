@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 250px; /* Space for sidebar */
+  width: calc(100% - 250px);
+  height: 60px; /* Set a fixed height for the navbar */
+}
+.navbar-left h1 {
+  font-size: 18px;
+  color: #333;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right select {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background-color: #FFCC91;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+}
+
+.bell-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.user-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 5%;
+}

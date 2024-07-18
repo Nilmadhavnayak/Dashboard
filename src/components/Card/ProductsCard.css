@@ -1,0 +1,32 @@
+.products-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .products-card h3 {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .products-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .products-stats div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .products-stats span:first-child {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .products-stats span:last-child {
+    font-size: 18px;
+    font-weight: bold;
+  }

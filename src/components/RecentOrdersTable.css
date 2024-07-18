@@ -1,0 +1,37 @@
+.recent-orders-table {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-orders-table h3 {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .recent-orders-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .recent-orders-table th,
+  .recent-orders-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .recent-orders-table th {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .status-pending {
+    color: #FFA000;
+  }
+  
+  .status-completed {
+    color: #4CAF50;
+  }

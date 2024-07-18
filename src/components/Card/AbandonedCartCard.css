@@ -1,0 +1,32 @@
+.abandoned-cart-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .abandoned-cart-card h3 {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .abandoned-cart-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .abandoned-cart-stats div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .abandoned-cart-stats span:first-child {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .abandoned-cart-stats span:last-child {
+    font-size: 14px;
+    color: #666;
+  }
